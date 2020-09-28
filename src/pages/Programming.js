@@ -1,10 +1,14 @@
 import React from 'react';
+// Components
+import Navbar from '../components/Navbar';
+import Cards from '../components/Cards';
 
 const Programming = () => {
-  return ( 
-    <div className="container">
-      <h1>Programming</h1>
-    </div>
+  return (
+  <>
+    <Navbar />
+    <Cards />
+  </>
   );
 }
  

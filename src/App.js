@@ -14,7 +14,7 @@ function App() {
         <Route exact path="/" component={() => <Home />}></Route>
         <Route exact path="/dev" component={() => <Programming />}></Route>
         <Route exact path="/mobile" component={() => <Mobile />}></Route>
-        <Route exact path="/ciber" component={() => <Cybersecurity />}></Route>
+        <Route exact path="/cyber" component={() => <Cybersecurity />}></Route>
       </Switch>
     </Router>
   );
