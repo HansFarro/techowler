@@ -5,12 +5,10 @@ import M from 'materialize-css/dist/js/materialize.min.js';
 
 const Navbar = () => {
   // Click en menu para desplegar sidenavbar
-  // var elems = document.querySelectorAll('.sidenav');
-  // M.Sidenav.init(elems);
   useEffect(() => {
     let sidenav = document.querySelector('#slide-out');
     M.Sidenav.init(sidenav, {
-      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      closeOnClick: true,
       draggable: true,
       menuWidth: 300,
       edge: 'left',
