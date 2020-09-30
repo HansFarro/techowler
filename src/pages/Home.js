@@ -11,7 +11,7 @@ const Home = () => {
     <div className="header-overlay"></div>
     <div className="header-content">
       <h1>TECHowler</h1>
-      <p>Welcome to your TECHowler blogger website where you can discover a lot of useful contents written by technology lovers</p>
+      <p>Welcome to your TECHowler blog where you can discover a lot of useful contents written by technology lovers</p>
       <Link to="/dev" className="waves-effect waves-light btn-large deep-purple darken-3"><i className="material-icons right">read_more</i>Get Started</Link>
     </div>
   </header>
