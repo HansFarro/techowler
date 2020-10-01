@@ -15,12 +15,11 @@ const Programming = () => {
   return (
   <>
     <Navbar />
-    <div class="parallax-container">
-      <div class="parallax">
+    <div className="parallax-container">
+      <div className="parallax">
         <img src={Panel} alt="developers"></img>
         <div className="container center">
         <span>Discover and read some articles for developers</span>
-
         </div>
       </div>
     </div>
